@@ -1,0 +1,125 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: Piattaforma Gestione Covid-19
+categories:
+  - erp
+dependsOn:
+  open:
+    - name: Apache httpd
+      optional: false
+      version: '2.4'
+      versionMax: ''
+      versionMin: ''
+    - name: PHP
+      optional: false
+      version: '7.1'
+      versionMax: ''
+      versionMin: ''
+    - name: Redhat Jboss
+      optional: false
+      version: '6.4'
+      versionMax: ''
+      versionMin: ''
+    - name: OpenJDL
+      optional: false
+      version: '8'
+      versionMax: ''
+      versionMin: ''
+    - name: PostgreSQL
+      optional: false
+      version: '9.6'
+      versionMax: ''
+      versionMin: ''
+description:
+  it:
+    features:
+      - >-
+        AdminConsole- Consente al gestore del servizio di amministrare le utenze
+        e i profili di accesso 
+      - AdminUtenti - Console di amministrazione utenti/profili del sistema
+      - Dataview - Visualizzatore dati per prefettura e forze dell'ordine
+      - EsitoTampone - Inserimento manuale esito tampone e data esito
+      - >-
+        AdmimRicoveri - Gestione pazienti ricoverati / dimessi dalla strutture
+        sanitarie
+      - GestStrutture - Gestione strutture e posti letto
+      - DashPostiLetto - Dashboard sull'occupazione dei posti letto
+      - >-
+        GestPazientiWeb - Inserimento dati anagrafici paziente e richiesta
+        tampone
+      - >-
+        VisuraMMGWeb - Gestione pazienti covid-positivi o sospetti tali per
+        Medici di base
+      - >-
+        VisuraPazientiWeb - Visura pazienti covid-positivi per i sindaci dei
+        comuni
+      - >-
+        Acquisti - Sistema di controllo unificato del fabbisogno di DPI, e altri
+        servizi
+      - >-
+        HRPersSanitASR - HR - Inserimento fabbisogni personale sanitario per le
+        Aziende Sanitarie
+      - Assmedici - Censimento personale sanitario assente per covid19
+      - USCA - Gestione degli USCA e interazioni con MMG
+      - EsitiCollector - Collettore esiti provenienti dal FSE.
+      - 'RSA - Gestione delle RSA (posti letto, dipendenti, degenti, ...)'
+    genericName: Piattaforma Gestione Covid-19
+    longDescription: >
+      La Piattaforma Covid-19 è il nuovo strumento voluto dalla Regione Piemonte
+      con la collaborazione del CSI che consente all’Unità di Crisi di
+      affrontare con maggiore efficacia l’emergenza Coronavirus: permette di
+      monitorare in tempo reale i processi di analisi dei tamponi, la presa in
+      carico dei pazienti in ospedale, le loro dimissioni e i trasferimenti a
+      domicilio o in altre strutture per il post ricovero, le acquisizioni
+      straordinarie di personale, i servizi e presidi medici, lo stato di
+      occupazione dei letti suddivisi per ogni struttura tra terapia intensiva,
+      subintensiva e ordinaria. Un sistema gestionale completo e flessibile, con
+      soluzioni tecnologiche open source in cui le informazioni sono fruibili
+      facilmente anche in mobilità e con dispositivi diversi.
+    shortDescription: >-
+      La Piattaforma Covid-19 è un composito di applicazioni create per gestire
+      tutta la fase dell'emergenza pandemica del virus covid-19.
+developmentStatus: stable
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - healthcare
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: true
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: true
+landingURL: 'https://github.com/regione-piemonte/gescovid19.git'
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Regione Piemonte
+  repoOwner: Regione PIemonte
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+maintenance:
+  contacts:
+    - email: carlo.fortunato@csi.it
+      name: Carlo Fortunato
+  type: internal
+name: Piattaforma Covid 19
+platforms:
+  - web
+releaseDate: '2020-09-23'
+softwareType: standalone/other
+softwareVersion: '1.0'
+url: 'https://github.com/regione-piemonte/gescovid19'
+usedBy:
+  - Regione Piemonte
