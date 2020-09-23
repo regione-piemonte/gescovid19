@@ -90,7 +90,7 @@ intendedAudience:
     - healthcare
 it:
   conforme:
-    gdpr: true
+    gdpr: false
     lineeGuidaDesign: true
     misureMinimeSicurezza: true
     modelloInteroperabilita: true
@@ -99,7 +99,7 @@ it:
     anpr: false
     cie: false
     pagopa: false
-    spid: true
+    spid: false
 landingURL: 'https://github.com/regione-piemonte/gescovid19.git'
 legal:
   license: EUPL-1.2
@@ -113,6 +113,8 @@ maintenance:
   contacts:
     - email: carlo.fortunato@csi.it
       name: Carlo Fortunato
+    - email: annalina.vitelli@csi.it
+      name: Annalina Vitelli
   type: internal
 name: Piattaforma Covid 19
 platforms:
