@@ -1,6 +1,6 @@
 # Project title: GESCOVID19
-La piattaforma **GESCOVID19** è un composito di applicazioni create per gestire tutta la fase dell'emergenza pandemica del virus covid-19, dal momento della segnalazione di un sospetto positivo, monitorando tutto il decorso del paziente covid-positivo.  
-E' stata realizzata dal CSI-Piemonte con tencologie opensource, commissionata e finaniata dalla Regione Piemonte.  
+La piattaforma **GESCOVID19** è un composito di applicazioni create per gestire tutta la fase dell'emergenza pandemica del virus covid-19, dal momento della segnalazione di un sospetto positivo, passando per la presa in carico fino alla guarigione, monitorando tutto il decorso del paziente covid-positivo.  
+E' stata realizzata dal CSI-Piemonte con tecnologie open source, commissionata e finanziata dalla Regione Piemonte.  
   
 # Getting started  
 I moduli attualmente disponibili sono:  
