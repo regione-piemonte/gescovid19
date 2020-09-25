@@ -37,34 +37,34 @@ description:
   it:
     features:
       - >-
-        AdminConsole- Consente al gestore del servizio di amministrare le utenze
+        Admin Console- Consente al gestore del servizio di amministrare le utenze
         e i profili di accesso 
-      - AdminUtenti - Console di amministrazione utenti/profili del sistema
+      - Admin Utenti - Console di amministrazione utenti/profili del sistema
       - Dataview - Visualizzatore dati per prefettura e forze dell'ordine
-      - EsitoTampone - Inserimento manuale esito tampone e data esito
+      - Esito Tampone - Inserimento manuale esito tampone e data esito
       - >-
-        AdmimRicoveri - Gestione pazienti ricoverati / dimessi dalla strutture
+        Admim Ricoveri - Gestione pazienti ricoverati / dimessi dalla strutture
         sanitarie
-      - GestStrutture - Gestione strutture e posti letto
-      - DashPostiLetto - Dashboard sull'occupazione dei posti letto
+      - Gestione Strutture - Gestione strutture e posti letto
+      - Dashboard Posti Letto - Dashboard sull'occupazione dei posti letto
       - >-
-        GestPazientiWeb - Inserimento dati anagrafici paziente e richiesta
+        Gestione Pazienti Web - Inserimento dati anagrafici paziente e richiesta
         tampone
       - >-
-        VisuraMMGWeb - Gestione pazienti covid-positivi o sospetti tali per
+        Visura MMG Web - Gestione pazienti covid-positivi o sospetti tali per
         Medici di base
       - >-
-        VisuraPazientiWeb - Visura pazienti covid-positivi per i sindaci dei
+        Visura Pazienti Web - Visura pazienti covid-positivi per i sindaci dei
         comuni
       - >-
         Acquisti - Sistema di controllo unificato del fabbisogno di DPI, e altri
         servizi
       - >-
-        HRPersSanitASR - HR - Inserimento fabbisogni personale sanitario per le
+        HR Personale Sanitario Inserimento fabbisogni personale sanitario per le
         Aziende Sanitarie
-      - Assmedici - Censimento personale sanitario assente per covid19
+      - Assenza medici - Censimento personale sanitario assente per covid19
       - USCA - Gestione degli USCA e interazioni con MMG
-      - EsitiCollector - Collettore esiti provenienti dal FSE.
+      - Esiti Collector - Collettore esiti provenienti dal FSE.
       - 'RSA - Gestione delle RSA (posti letto, dipendenti, degenti, ...)'
     genericName: Piattaforma Gestione Covid-19
     longDescription: >
@@ -104,7 +104,7 @@ landingURL: 'https://github.com/regione-piemonte/gescovid19.git'
 legal:
   license: EUPL-1.2
   mainCopyrightOwner: Regione Piemonte
-  repoOwner: Regione PIemonte
+  repoOwner: Regione Piemonte
 localisation:
   availableLanguages:
     - it
