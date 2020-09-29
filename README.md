@@ -47,7 +47,7 @@ I linguaggi di programmazione utilizzati sono:
   
 - Java  
 - Pentaho  
-- pl-pg/sql  
+- pl/pgsql  
   
 Si rimanda ai file README.md delle singole componenti di prodotto per i dettagli specifici.  
   
