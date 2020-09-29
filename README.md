@@ -9,18 +9,18 @@ I moduli attualmente disponibili sono:
 | ---------: | :---------- |  
 | **Admin Console** | Consente al gestore del servizio di amministrare le utenze e i profili di accesso agli applicativi |  
 | **Admin Utenti** | Console di amministrazione utenti/profili del sistema |  
-| **Dataview** | Visualizzatore dati per prefettura e forze dell'ordine |  
+| **Dataview** | Visualizzatore dati per Prefettura e Forze dell'Ordine |  
 |**Esito Tampone** | Inserimento manuale esito tampone e data esito |  
 | **Admim Ricoveri** | Gestione pazienti ricoverati / dimessi dalla strutture sanitarie |  
 | **Gestione Strutture** | Gestione strutture e posti letto |  
-| [**Dashboard Posti Letto**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Dashboard sull'occupazione dei posti letto |  
-|[**Gestione Pazienti Web**](https://github.com/regione-piemonte/gescovid19-gestionepazientiweb) | Inserimento dati anagrafici paziente e richiesta tampone |  
-| [**VisuraMMGWeb**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Gestione pazienti covid-positivi o sospetti tali per Medici di base |  
+| [**Dashboard Posti Letto**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Dashboard sull'occupazione dei posti letto in tempo reale |  
+|[**Gestione Pazienti Web**](https://github.com/regione-piemonte/gescovid19-gestionepazientiweb) | Inserimento dati anagrafici paziente, gestione della richiesta tampone, gestione del decorso della malattia, visualizzazione delle segnalazioni in arrivo da MMG/PLS |  
+| [**VisuraMMGWeb**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Gestione degli assistiti covid-positivi (o sospetti) di un MMG. Gestisce la segnalazione dei sospetti positivi al SISP/USCA territorialmente competente|  
 | [**VisuraPazientiWeb**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Visura pazienti covid-positivi per i sindaci dei Comuni |  
 | **Acquisti** | Sistema di controllo unificato del fabbisogno di DPI, acquisto centralizzato, magazzino e logistica della distribuzione alle ASL |  
 | **HR Personale Sanitario** | HR - Inserimento fabbisogni personale sanitario per le Aziende Sanitarie |  
 | **Assenza medici** | Censimento personale sanitario assente per covid19 |  
-| [**USCA**](https://github.com/regione-piemonte/gescovid19-uscammgapi) | Gestione degli USCA e interazioni con MMG |    
+| [**USCA**](https://github.com/regione-piemonte/gescovid19-uscammgapi) | Gestione degli USCA e interazioni con MMG. Gestisce il diario clinico del paziente |    
 | **RSA** | Gestione delle RSA (posti letto, dipendenti, degenti, ...) |  
   
 # Prerequisites  
