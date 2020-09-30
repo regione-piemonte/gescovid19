@@ -1,7 +1,9 @@
 # Project title: GESCOVID19
-La piattaforma **GESCOVID19** è composta da un gruppo di applicazioni create per gestire tutta la fase dell'emergenza pandemica del virus covid-19, dal momento della segnalazione di un sospetto positivo, passando per la presa in carico fino alla guarigione, monitorando tutto il decorso del paziente covid-positivo.  
-E' stata realizzata dal CSI-Piemonte con tecnologie open source, commissionata e finanziata dalla Regione Piemonte.  
-  
+
+La piattaforma **GESCOVID19** è composta da un gruppo di applicazioni create per gestire in tempo reale i processi di richiesta tamponi e di consultazione del relativo esito, la presa in carico dei pazienti in ospedale, le loro dimissioni e i trasferimenti a domicilio o in altre strutture per il post-ricovero, divulgare le segnalazioni in arrivo da MMG/PLS, gestire le acquisizioni straordinarie di personale, gestire il ciclo di approvvigionamento di servizi e presidi medici, tenere sotto controllo lo stato di occupazione dei letti suddivisi, per ogni struttura, tra terapia intensiva, sub-intensiva e ordinaria, nonché la consultazione dei casi positivi da parte dei sindaci, Prefettura e forze dell'ordine.
+Un sistema gestionale completo e flessibile, realizzato dal CSI Piemonte con soluzioni tecnologiche open source in cui le informazioni sono fruibili
+facilmente anche in mobilità e con dispositivi diversi.
+
 # Getting started  
 I moduli attualmente disponibili sono:  
   
@@ -15,13 +17,14 @@ I moduli attualmente disponibili sono:
 | **Gestione Strutture** | Gestione strutture e posti letto |  
 | [**Dashboard Posti Letto**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Dashboard sull'occupazione dei posti letto in tempo reale |  
 |[**Gestione Pazienti Web**](https://github.com/regione-piemonte/gescovid19-gestionepazientiweb) | Inserimento dati anagrafici paziente, gestione della richiesta tampone, gestione del decorso della malattia, visualizzazione delle segnalazioni in arrivo da MMG/PLS |  
-| [**VisuraMMGWeb**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Gestione degli assistiti covid-positivi (o sospetti) di un MMG. Gestisce la segnalazione dei sospetti positivi al SISP/USCA territorialmente competente|  
+| [**VisuraMMGWeb**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Gestione degli assistiti di un MMG covid-positivi. Gestisce la segnalazione dei sospetti positivi al SISP/USCA territorialmente competente|  
 | [**VisuraPazientiWeb**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Visura pazienti covid-positivi per i sindaci dei Comuni |  
-| **Acquisti** | Sistema di controllo unificato del fabbisogno di DPI, acquisto centralizzato, magazzino e logistica della distribuzione alle ASL |  
+| **Acquisti** | Sistema di controllo unificato del fabbisogno di DPI. Gestisce l'acquisto centralizzato, il magazzino e logistica della distribuzione alle ASL |  
 | **HR Personale Sanitario** | HR - Inserimento fabbisogni personale sanitario per le Aziende Sanitarie |  
 | **Assenza medici** | Censimento personale sanitario assente per covid19 |  
 | [**USCA**](https://github.com/regione-piemonte/gescovid19-uscammgapi) | Gestione degli USCA e interazioni con MMG. Gestisce il diario clinico del paziente |    
-| **RSA** | Gestione delle RSA (posti letto, dipendenti, degenti, ...) |  
+| **RSA** | Gestione delle RSA (posti letto, dipendenti, degenti, ...) |
+| **HR Rilevazione** | Gestione della rilevazione personale |
   
 # Prerequisites  
 ## Software  
