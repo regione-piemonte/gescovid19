@@ -24,7 +24,7 @@ I moduli attualmente disponibili sono:
 | **Assenza medici** | Censimento personale sanitario assente per covid19 |  
 | [**USCA**](https://github.com/regione-piemonte/gescovid19-uscammgapi) | Gestione degli USCA e interazioni con MMG. Gestisce il diario clinico del paziente |    
 | **RSA** | Gestione delle RSA (posti letto, dipendenti, degenti, ...) |
-| **HR Rilevazione** | Gestione della rilevazione personale |
+| **HR Rilevazione** | Sistema di raccolta delle informazioni legate alle attività svolte dal personale delle ASL sul territorio come richiesto dagli indicatori ministeriali |
   
 # Prerequisites  
 ## Software  
