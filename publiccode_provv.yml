@@ -37,7 +37,7 @@ description:
   it:
     features:
       - >-
-        Admin Console - Consente al gestore del servizio di amministrare le utenze e i profili di accesso agli applicativi
+        Admin Console - Amministra le utenze e i profili di accesso agli applicativi
       - Admin Utenti - Console di amministrazione utenti/profili del sistema
       - Dataview - Visualizzatore dati per Prefettura e Forze dell'Ordine
       - Esito Tampone - Inserimento manuale esito tampone e data esito
@@ -46,19 +46,19 @@ description:
       - Gestione Strutture - Gestione strutture e posti letto
       - Dashboard Posti Letto - Dashboard sull'occupazione dei posti letto in tempo reale
       - >-
-        Gestione Pazienti Web - Inserimento dati anagrafici paziente, gestione della richiesta tampone, gestione del decorso della malattia, visualizzazione delle segnalazioni in arrivo da MMG/PLS
+        Gestione Pazienti Web - anagrafica paziente, gestione tamponi, decorsi , segnalazioni dai MMG/PLS
       - >-
-        Visura MMG Web - Gestione degli assistiti di un MMG covid-positivi. Gestisce la segnalazione dei sospetti positivi al SISP/USCA territorialmente competente
+        Visura MMG Web - Assistiti di un MMG covid-positivi.Segnala i sospetti positivi al SISP competente
       - >-
         Visura Pazienti Web - Visura pazienti covid-positivi per i sindaci dei Comuni
       - >-
-        Acquisti - Sistema di controllo unificato del fabbisogno di DPI. Gestisce l'acquisto centralizzato, il magazzino e logistica della distribuzione alle ASL
+        Acquisti - GEstione unica del fabbisogno di DPI. Gestisce l'acquisto, il magazzino, e la distribuzione alle ASL
       - >-
         HR Personale Sanitario - HR - Inserimento fabbisogni personale sanitario per le Aziende Sanitarie
       - Assenza medici - Censimento personale sanitario assente per covid19
       - USCA - Gestione degli USCA e interazioni con MMG. Gestisce il diario clinico del paziente
       - RSA - Gestione delle RSA (posti letto, dipendenti, degenti, ...)
-      - HR Rilevazioni - Sistema di raccolta delle informazioni legate alle attività svolte dal personale delle ASL sul territorio come richiesto dagli indicatori ministeriali
+      - HR Rilevazioni - Raccolta delle attività svolte dal personale delle ASL sul territorio come da indicatori ministeriali
     genericName: Piattaforma Gestione Covid-19
     longDescription: >
       La piattaforma GESCOVID19 è composta da un gruppo di applicazioni create per gestire in tempo reale i processi di richiesta tamponi e di consultazione del relativo esito, 
