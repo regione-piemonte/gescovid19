@@ -17,8 +17,8 @@ I moduli attualmente disponibili sono:
 | **Gestione Strutture** | Gestione strutture e posti letto |  
 | [**Dashboard Posti Letto**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Dashboard sull'occupazione dei posti letto in tempo reale |  
 |[**Gestione Pazienti Web**](https://github.com/regione-piemonte/gescovid19-gestionepazientiweb) | Inserimento dati anagrafici paziente, gestione della richiesta tampone, gestione del decorso della malattia, visualizzazione delle segnalazioni in arrivo da MMG/PLS |  
-| [**VisuraMMGWeb**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Gestione degli assistiti di un MMG covid-positivi. Gestisce la segnalazione dei sospetti positivi al SISP/USCA territorialmente competente|  
-| [**VisuraPazientiWeb**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Visura pazienti covid-positivi per i sindaci dei Comuni |  
+| [**Visura MMG Web**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Gestione degli assistiti di un MMG covid-positivi. Gestisce la segnalazione dei sospetti positivi al SISP/USCA territorialmente competente|  
+| [**Visura Pazienti Web**](https://github.com/regione-piemonte/gescovid19-pazientiweb) | Visura pazienti covid-positivi per i sindaci dei Comuni |  
 | **Acquisti** | Sistema di controllo unificato del fabbisogno di DPI. Gestisce l'acquisto centralizzato, il magazzino e logistica della distribuzione alle ASL |  
 | **HR Personale Sanitario** | HR - Inserimento fabbisogni personale sanitario per le Aziende Sanitarie |  
 | **Assenza medici** | Censimento personale sanitario assente per covid19 |  
