@@ -37,51 +37,39 @@ description:
   it:
     features:
       - >-
-        Admin Console- Consente al gestore del servizio di amministrare le utenze
-        e i profili di accesso 
+        Admin Console - Consente al gestore del servizio di amministrare le utenze e i profili di accesso agli applicativi
       - Admin Utenti - Console di amministrazione utenti/profili del sistema
-      - Dataview - Visualizzatore dati per prefettura e forze dell'ordine
+      - Dataview - Visualizzatore dati per Prefettura e Forze dell'Ordine
       - Esito Tampone - Inserimento manuale esito tampone e data esito
       - >-
-        Admim Ricoveri - Gestione pazienti ricoverati / dimessi dalla strutture
-        sanitarie
+        Admim Ricoveri - Gestione pazienti ricoverati / dimessi dalla strutture sanitarie
       - Gestione Strutture - Gestione strutture e posti letto
-      - Dashboard Posti Letto - Dashboard sull'occupazione dei posti letto
+      - Dashboard Posti Letto - Dashboard sull'occupazione dei posti letto in tempo reale
       - >-
-        Gestione Pazienti Web - Inserimento dati anagrafici paziente e richiesta
-        tampone
+        Gestione Pazienti Web - Inserimento dati anagrafici paziente, gestione della richiesta tampone, gestione del decorso della malattia, visualizzazione delle segnalazioni in arrivo da MMG/PLS
       - >-
-        Visura MMG Web - Gestione pazienti covid-positivi o sospetti tali per
-        Medici di base
+        Visura MMG Web - Gestione degli assistiti di un MMG covid-positivi. Gestisce la segnalazione dei sospetti positivi al SISP/USCA territorialmente competente
       - >-
-        Visura Pazienti Web - Visura pazienti covid-positivi per i sindaci dei
-        comuni
+        Visura Pazienti Web - Visura pazienti covid-positivi per i sindaci dei Comuni
       - >-
-        Acquisti - Sistema di controllo unificato del fabbisogno di DPI, e altri
-        servizi
+        Acquisti - Sistema di controllo unificato del fabbisogno di DPI. Gestisce l'acquisto centralizzato, il magazzino e logistica della distribuzione alle ASL
       - >-
-        HR Personale Sanitario Inserimento fabbisogni personale sanitario per le
-        Aziende Sanitarie
+        HR Personale Sanitario - HR - Inserimento fabbisogni personale sanitario per le Aziende Sanitarie
       - Assenza medici - Censimento personale sanitario assente per covid19
-      - USCA - Gestione degli USCA e interazioni con MMG
-      - Esiti Collector - Collettore esiti provenienti dal FSE.
-      - 'RSA - Gestione delle RSA (posti letto, dipendenti, degenti, ...)'
+      - USCA - Gestione degli USCA e interazioni con MMG. Gestisce il diario clinico del paziente
+      - RSA - Gestione delle RSA (posti letto, dipendenti, degenti, ...)
+      - HR Rilevazioni - Sistema di raccolta delle informazioni legate alle attività svolte dal personale delle ASL sul territorio come richiesto dagli indicatori ministeriali
     genericName: Piattaforma Gestione Covid-19
     longDescription: >
-      La Piattaforma Covid-19 è il nuovo strumento voluto dalla Regione Piemonte
-      con la collaborazione del CSI che consente all’Unità di Crisi di
-      affrontare con maggiore efficacia l’emergenza Coronavirus: permette di
-      monitorare in tempo reale i processi di analisi dei tamponi, la presa in
-      carico dei pazienti in ospedale, le loro dimissioni e i trasferimenti a
-      domicilio o in altre strutture per il post ricovero, le acquisizioni
-      straordinarie di personale, i servizi e presidi medici, lo stato di
-      occupazione dei letti suddivisi per ogni struttura tra terapia intensiva,
-      subintensiva e ordinaria. Un sistema gestionale completo e flessibile, con
-      soluzioni tecnologiche open source in cui le informazioni sono fruibili
-      facilmente anche in mobilità e con dispositivi diversi.
+      La piattaforma GESCOVID19 è composta da un gruppo di applicazioni create per gestire in tempo reale i processi di richiesta tamponi e di consultazione del relativo esito, 
+      la presa in carico dei pazienti in ospedale, le loro dimissioni e i trasferimenti a domicilio o in altre strutture per il post-ricovero, 
+      divulgare le segnalazioni in arrivo da MMG/PLS, gestire le acquisizioni straordinarie di personale, gestire il ciclo di approvvigionamento di servizi e presidi medici, 
+      tenere sotto controllo lo stato di occupazione dei letti suddivisi, per ogni struttura, tra terapia intensiva, sub-intensiva e ordinaria, 
+      nonché la consultazione dei casi positivi da parte dei sindaci, Prefettura e forze dell'ordine. 
+      Un sistema gestionale completo e flessibile, realizzato dal CSI Piemonte con soluzioni tecnologiche open source in cui le informazioni sono fruibili facilmente anche 
+      in mobilità e con dispositivi diversi.
     shortDescription: >-
-      La Piattaforma Covid-19 è un composito di applicazioni create per gestire
-      tutta la fase dell'emergenza pandemica del virus covid-19.
+      La piattaforma è un insieme di applicazioni appositamente create per gestire la fase dell'emergenza pandemica del virus covid-19.
 developmentStatus: stable
 intendedAudience:
   countries:
@@ -90,7 +78,7 @@ intendedAudience:
     - healthcare
 it:
   conforme:
-    gdpr: false
+    gdpr: true
     lineeGuidaDesign: true
     misureMinimeSicurezza: true
     modelloInteroperabilita: true
@@ -111,15 +99,15 @@ localisation:
   localisationReady: false
 maintenance:
   contacts:
-    - email: carlo.fortunato@csi.it
-      name: Carlo Fortunato
     - email: annalina.vitelli@csi.it
       name: Annalina Vitelli
+    - email: carlo.fortunato@csi.it
+      name: Carlo Fortunato
   type: internal
 name: Piattaforma Covid 19
 platforms:
   - web
-releaseDate: '2020-09-23'
+releaseDate: '2020-09-30'
 softwareType: standalone/other
 softwareVersion: '1.0'
 url: 'https://github.com/regione-piemonte/gescovid19'
