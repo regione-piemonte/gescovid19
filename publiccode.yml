@@ -1,0 +1,137 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: Piattaforma Gestione Covid-19
+categories:
+  - erp
+dependsOn:
+  open:
+    - name: Apache httpd
+      optional: false
+      version: '2.4'
+      versionMax: ''
+      versionMin: ''
+    - name: PHP
+      optional: false
+      version: '7.1'
+      versionMax: ''
+      versionMin: ''
+    - name: Redhat Jboss
+      optional: false
+      version: '6.4'
+      versionMax: ''
+      versionMin: ''
+    - name: OpenJDK
+      optional: false
+      version: '8'
+      versionMax: ''
+      versionMin: ''
+    - name: PostgreSQL
+      optional: false
+      version: '9.6'
+      versionMax: ''
+      versionMin: ''
+description:
+  it:
+    features:
+      - >-
+        Admin Console - Amministra le utenze e i profili di accesso agli
+        applicativi
+      - Admin Utenti - Console di amministrazione utenti/profili del sistema
+      - Dataview - Visualizzatore dati per Prefettura e Forze dell'Ordine
+      - Esito Tampone - Inserimento manuale esito tampone e data esito
+      - >-
+        Admim Ricoveri - Gestione pazienti ricoverati / dimessi dalla strutture
+        sanitarie
+      - Gestione Strutture - Gestione strutture e posti letto
+      - >-
+        Dashboard Posti Letto - Dashboard sull'occupazione dei posti letto in
+        tempo reale
+      - >-
+        Gestione Pazienti Web - anagrafica paziente, gestione tamponi, decorsi ,
+        segnalazioni dai MMG/PLS
+      - >-
+        Visura MMG Web - Assistiti di un MMG covid-positivi.Segnala i sospetti
+        positivi al SISP competente
+      - >-
+        Visura Pazienti Web - Visura pazienti covid-positivi per i sindaci dei
+        Comuni
+      - >-
+        Acquisti - Gestione del fabbisogno di DPI; acquisti, magazzino e
+        distribuzione alle ASL
+      - >-
+        HR Personale Sanitario - Fabbisogni personale sanitario per le Aziende
+        Sanitarie
+      - Assenza medici - Censimento personale sanitario assente per covid19
+      - >-
+        USCA - Gestione degli USCA e interazioni con MMG. Gestisce il diario
+        clinico del paziente
+      - 'RSA - Gestione delle RSA (posti letto, dipendenti, degenti, ...)'
+      - >-
+        HR Rilevazioni - Raccolta attività svolte dal personale delle ASL come
+        da indicatori ministeriali
+    genericName: Piattaforma Gestione Covid-19
+    longDescription: >
+      La piattaforma GESCOVID19 è composta da un gruppo di applicazioni create
+      per gestire in tempo reale i processi di richiesta tamponi e di
+      consultazione del relativo esito,  la presa in carico dei pazienti in
+      ospedale, le loro dimissioni e i trasferimenti a domicilio o in altre
+      strutture per il post-ricovero,  divulgare le segnalazioni in arrivo da
+      MMG/PLS, gestire le acquisizioni straordinarie di personale, gestire il
+      ciclo di approvvigionamento di servizi e presidi medici,  tenere sotto
+      controllo lo stato di occupazione dei letti suddivisi, per ogni struttura,
+      tra terapia intensiva, sub-intensiva e ordinaria,  nonché la consultazione
+      dei casi positivi da parte dei sindaci, Prefettura e forze dell'ordine. 
+      Un sistema gestionale completo e flessibile, realizzato dal CSI Piemonte
+      con soluzioni tecnologiche open source in cui le informazioni sono
+      fruibili facilmente anche  in mobilità e con dispositivi diversi.
+    shortDescription: >-
+      La piattaforma è un insieme di applicazioni appositamente create per
+      gestire la fase dell'emergenza pandemica del virus covid-19.
+developmentStatus: stable
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - healthcare
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: true
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: r_piemon
+landingURL: 'https://github.com/regione-piemonte/gescovid19.git'
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Regione Piemonte
+  repoOwner: Regione Piemonte
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+maintenance:
+  contacts:
+    - email: annalina.vitelli@csi.it
+      name: Annalina Vitelli
+    - email: carlo.fortunato@csi.it
+      name: Carlo Fortunato
+  type: internal
+name: Piattaforma Covid 19
+platforms:
+  - web
+releaseDate: '2020-09-30'
+softwareType: standalone/other
+softwareVersion: '1.0'
+url: 'https://github.com/regione-piemonte/gescovid19'
+usedBy:
+  - Regione Piemonte
