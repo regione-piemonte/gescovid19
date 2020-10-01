@@ -67,7 +67,7 @@ Nei file README.md delle singole componenti sono fornite informazioni per la com
 Per la gestione del codice sorgente può essere utilizzata qualsiasi piattaforma di source versioning (p.es GIT, Subversion, ...) . Per il versionamento del codice sono utilizzate le regole del [Semantic Versioning](http://semver.org/).
   
 # Copyrights
-© Copyright Regione Piemonte – 2020”.
+© Copyright Regione Piemonte – 2020
 
 # License
 SPDX-License-Identifier: EUPL-1.2
