@@ -24,7 +24,7 @@ I moduli attualmente disponibili sono:
 | [**HR Personale Sanitario ASR**](https://github.com/regione-piemonte/gescovi19-hrperssanitasr) | HR - Inserimento fabbisogni personale sanitario per le Aziende Sanitarie |
 | [**HR Personale Sanitario UDC**](https://github.com/regione-piemonte/gescovid19-hrauthudc) | HR - Approvazione fabbisogni di personale |
 | [**HR Personale Sanitario Dett**](https://github.com/regione-piemonte/gescovid19-hrinsdettpers) | HR - Inserimento figure professionali richieste |
-| **Assenza medici** | Censimento personale sanitario assente per covid19 |  
+| [**Assenza medici**](https://github.com/regione-piemonte/gescovid19-assmedici) | Censimento personale sanitario assente per covid19 |  
 | [**USCA**](https://github.com/regione-piemonte/gescovid19-uscammgapi) | Gestione degli USCA e interazioni con MMG. Gestisce il diario clinico del paziente |    
 | [**RSA**](https://github.com/regione-piemonte/gescovid19-rsa) | Gestione delle RSA (posti letto, dipendenti, degenti, ...) |
 | [**HR Rilevazione**](https://github.com/regione-piemonte/gescovid19-hrril) | Sistema di raccolta delle informazioni legate alle attività svolte dal personale delle ASL sul territorio come richiesto dagli indicatori ministeriali |
