@@ -29,7 +29,7 @@ I moduli attualmente disponibili sono:
 | [**RSA**](https://github.com/regione-piemonte/gescovid19-rsa) | Gestione delle RSA (posti letto, dipendenti, degenti, ...) |
 | [**HR Rilevazione**](https://github.com/regione-piemonte/gescovid19-hrril) | Sistema di raccolta delle informazioni legate alle attività svolte dal personale delle ASL sul territorio come richiesto dagli indicatori ministeriali |
 | [**Gestrutturesresapi**](https://github.com/regione-piemonte/gestruttureresapi-) | Componente a servizi per la gestione delle rilevazioni e delle rendicontazioni relative a buono welfare delle strutture residenziali|
-| [**Gestrutturesresfe**](https://github.com/regione-piemonte/gestruttureresfe-) | Frontend per la gestione delle rilevazioni e delle rendicontazioni relative a buono welfare delle strutture residenziali|
+| [**Gestrutturesresfe**](https://github.com/regione-piemonte/gestruttureresfe) | Frontend per la gestione delle rilevazioni e delle rendicontazioni relative a buono welfare delle strutture residenziali|
 
   
 # Prerequisites  
